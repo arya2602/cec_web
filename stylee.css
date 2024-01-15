@@ -1,0 +1,1245 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-image:url("../images/bgg.png") ;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-size: 100% auto; 
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  z-index:1;
+ 
+}
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh; /* Adjust as needed to fit your content */
+}
+
+.centeredd {
+  text-align: center;
+  font-size: 35px; /* Adjust the value to increase the font size */
+  margin-left: -300px;
+  margin-top: 20px;
+  
+}
+.orange {
+  color: orange;
+}
+
+.white {
+  color: rgb(169, 165, 199);
+}
+
+.green {
+  color: green;
+}
+.centered-text {
+  margin-left: -300px;
+  font-size: 90px; /* Adjust the value to move the text left */
+  margin-top: 30px; 
+}
+.blue{
+  color: rgb(15, 6, 100);
+
+}
+
+.row{
+  max-width: 1180px;
+  margin: 0 auto;
+
+}
+.centeredd-text {
+  margin-left: -300px; /* Adjust the value to move the text left */
+  font-size: 25px; /* Adjust the value to increase the font size */
+  margin-top: 80px;
+}
+.logo{
+  height: 90px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
+  margin-top: 10px;
+  
+}
+
+
+.btn-full{
+display: inline-block;
+padding: 10px 20px;
+
+border: 2px solid #000; /* Border color */
+border-radius: 40px; /* Adjust the value to control the curvature of the border */
+margin-right: 10px; 
+
+}
+
+.btn-full {
+text-decoration: none;
+color:#f0f0f0; /* Text color */
+font-weight: bold;
+margin-left: -10px;
+}
+
+.btn-full:hover {
+background-color:#595fce; /* Background color when hovering */
+}
+
+
+.main-nav{
+  display: flex;
+justify-content: center;
+top: 30px;
+position: relative;
+padding: 10px;
+margin: 60px;
+margin-top: 10px;
+/* position: fixed; */
+ 
+}
+
+
+.main-nav li{
+  display: inline-block;
+  list-style: none;
+  margin-left: 40px;
+  font-family:'Roboto';
+ 
+
+}
+.main-nav li a{
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 130%;
+  font-weight: bold;
+  font-family:Rubik;
+  font-family: 'Montserrat';
+  
+background-color: (0,0,0,0.6);
+}
+.main-nav li a:hover {
+color: red;
+
+border-radius: 5px;
+}
+
+
+.about-us {
+
+background-image:url("./images/bgg.png") ;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.aboutimg1{
+width: 100%;
+height: 100px!important;
+}
+.image-container {
+display: flex;
+flex-wrap: wrap;
+}
+
+.image-wrapper {
+flex: 1;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.image-wrapper img {
+width: 200px;
+height: 220px;
+object-fit: cover;
+}
+
+.caption {
+margin-top: 10px;
+}
+.logo1 {
+position: relative;
+bottom: 20px; /* Adjust the pixel value as needed */
+}
+body{
+overflow-x: hidden;
+
+}
+.section-title {
+background-image: url('./images/bg_ashok.jpg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+/* Add any other background properties you need */
+border-bottom: 1px solid #000; /* You can change the color and thickness of the line here */
+}
+
+.row{
+background-color: (0,0,0,0.6);
+}
+.heading {
+border-bottom: 4px solid red;
+}
+.about_taital {
+margin-top: 70px; /* Adjust this value as needed */
+margin-left: 70px; 
+font-size: 45px;
+margin-bottom: 20px; 
+
+
+}
+.container-inside {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+}
+
+.col-md-6 {
+flex: 1;
+padding: 10px;
+}
+
+.image_22 img {
+max-width: 100%;
+height: auto;
+display: block;
+margin: 0 auto;
+max-height: 450px;
+margin-right: 28px;
+}
+.about_text {
+font-size: 25px;
+text-align:justify; /* Adjust this value as needed */
+margin-bottom: 30px;
+margin-top: 45px;
+
+}
+
+.image_2 img {
+width: 380px; /* Adjust this value as needed */
+height: auto; /* This will maintain the aspect ratio of the image */
+
+max-height: 500px;
+margin-left: 250px;
+height: 380px;
+/* filter: drop-shadow(8px 8px 10px rgb(114, 112, 112)); */
+border-radius: 10%;
+}
+.pho{
+width: 400px;
+height: 400px;
+margin-left: 185px;
+border-radius: 0%;
+
+}
+.about_taital {
+position: relative;
+}
+
+.about_taital:after {
+content: "";
+position: absolute;
+left: 0;
+bottom: 1px; /* Adjust the distance of the line from the text */
+width: 100%;
+
+}
+.readmore_bt1{
+display: inline-block;
+padding: 10px 20px;
+background-color: black;
+border: 2px solid #000; /* Border color */
+border-radius: 40px; /* Adjust the value to control the curvature of the border */
+margin-right: 10px; 
+
+}
+
+.readmore_bt1 a {
+text-decoration: none;
+color:#f0f0f0; /* Text color */
+font-weight: bold;
+}
+
+.readmore_bt1:hover {
+background-color:#e63b3b; /* Background color when hovering */
+}
+.readmore_bt{
+display: inline-block;
+padding: 10px 20px;
+background-color: black;
+border: 2px solid #000; /* Border color */
+border-radius: 40px; /* Adjust the value to control the curvature of the border */
+
+
+}
+
+.readmore_bt a {
+text-decoration: none;
+color:#f0f0f0; /* Text color */
+font-weight: bold;
+}
+
+.readmore_bt:hover {
+background-color:#e63b3b; /* Background color when hovering */
+}
+.image_1 {
+position: relative;
+display: inline-block;
+}
+
+.image_1::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity by modifying the last value (0.5) */
+}
+
+.image_1 img {
+display: block;
+max-width: 100%;
+height: auto;
+}
+h6 {
+font-weight: bold; /* Make the heading bold */
+font-size: 35px;
+
+}
+.facad {
+display: flex; /* Use flexbox to create a horizontal layout */
+}
+
+.first,
+.second {
+flex: 1; /* Distribute equal width to both divs */
+text-align: center; /* Center the content within each div */
+}
+
+img {
+width: 150px; /* Set the image width to your desired size */
+border-radius: 50%; /* Add a circular border to the images */
+}
+
+.facname {
+margin-top: 10px; /* Add some space between the image and the caption */
+}
+.larger-image {
+
+height: 400px;
+}
+.first {
+display: inline-block;
+margin-bottom: 20px;
+padding: 70px;
+width: 300px;
+height: 300px;
+}
+
+/* Optional styles to make the images and text center-aligned */
+.first img,
+.first h4 {
+text-align: center;
+}
+
+.first img {
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adjust the values as needed for the shadow effect */
+}
+h6 {
+margin-left: 65px; /* Adjust the value as needed to shift the heading to your desired position */
+}
+h4 {
+font-size: 24px; /* Adjust the value as needed to increase or decrease the font size */
+}
+.readmore_bt1 {
+margin-left: 174px; /* You can adjust this value to shift it further right */
+margin-top: 20px;
+}
+.first img {
+width: 200px; /* Set the width as per your desired size */
+height: 200px; /* Set the height as per your desired size */
+}
+
+
+h6 {
+position: relative;
+}
+
+h6:after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -8px; /* Adjust the distance of the line from the text */
+width: 100%;
+border-bottom: 1px solid #000; /* You can change the color and thickness of the line here */
+}
+.about_taital1 {
+  position: relative;
+  margin-left: auto
+
+}
+
+.about_taital1:after {
+  content: "";
+  position: absolute;
+  left: 4rem;
+  bottom: -8px; /* Adjust the distance of the line from the text */
+  width: 100%;
+  border-bottom: 1px solid #000; /* You can change the color and thickness of the line here */
+}
+.col {
+ font-size: 24px;
+ font-weight: bold;
+}
+.row {
+display: flex; /*Use Flexbox for the layout*/
+align-items: center; /*Center items vertically*/
+
+}
+
+.col {
+flex: 1; /* Allow both columns to grow and take equal space */
+display: flex;
+justify-content: center;
+
+}
+
+.img2 {
+max-width: 100%; /* Ensure the image fits within its container */
+}
+
+.about_taital1 {
+color: #333; /* Default font color for the heading */
+font-size: 24px; /* Font size for the heading */
+margin-right: 10px; /* Add some space between the heading and the image */
+margin-top: -50px;
+margin-bottom: 30px; 
+}
+
+.about_taital1 span {
+color: #ff3f5c; /* Font color for the word "VISION :" */
+font-weight: bold; /* Bold font weight for the word "VISION :" */
+}
+.col1 {
+position: relative;
+/* Adjust the thickness of the line here */
+padding-bottom: 180px;
+margin-top: 300px;
+font-size: 24px; 
+margin-bottom: 69px;
+}
+
+.col1::after {
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 5px; /* Adjust the height of the line here */
+background-color:  #ff3f5c; /* Change to any color you want */
+margin-bottom: 69px;
+}
+.eve {
+position: relative;
+font-size: 40px;
+margin-top: -46px;
+margin-right: 10px;
+}
+.name {
+height: 200px;
+background-image: url('');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+margin-top: -40px;
+padding-top: 70px;
+}
+
+.eve:after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -8px; /* Adjust the distance of the line from the text */
+width: 100%;
+ border-bottom: 1px solid #000; /*You can change the color and thickness of the line here */
+}
+.coll {
+margin-top: 80px; /* Adjust the value as needed to shift the content downwards */
+font-size: 24px;
+}
+.sub-heading1 {
+margin-top: 50px; /* Adjust the value as needed to shift the content downwards */
+display: flex;
+      justify-content: center;
+
+}
+.heading1{
+display: flex;
+justify-content: center;
+margin-top: 60px;
+}
+.sub-heading1 h4 {
+color: rgb(10, 10, 88);
+}
+.centered1-text{
+font-size: 28px;
+margin-right: 200px;
+}
+.coly {
+display: flex; /* Use flex display to align items side by side */
+align-items: center; /* Vertically center the content */
+}
+
+.coly p {
+font-weight: bold; /* Make the text bold */
+}
+
+.img22 {
+width: 500px; /* Adjust the width of the image as needed */
+margin-right: 200px; /* Add some space between the image and the text */
+margin-bottom: 90px;
+border-radius:16px;
+margin-top: 60px;
+height: 500px;
+}
+.cat {
+margin-top: 100px; /* You can adjust the value as per your preference */
+}
+.coly {
+text-align: center; /* Optional: Center the subheading */
+font-size: 26px; /* Adjust the font size as needed */
+text-align: justify;
+
+}
+
+.coly h2 {
+font-size: 24px; /* Adjust the font size as needed */
+font-weight: bold; /* Optional: Add bold styling */
+margin-bottom: 10px; /* Optional: Add some space between the subheading and the paragraph */
+}
+.col {
+display: flex; /* Use flexbox to align items */
+align-items: center; /* Vertically align items (image and text) */
+}
+.coly p {
+margin-bottom: 95px; /* Adjust the value as needed */
+}
+.img22 {
+margin-left: 90px; /* Adjust the value as needed */
+margin-right: 15px;
+}
+.col {
+margin-right: 60px; /* Adjust the value as needed */
+}
+.img22 {
+margin-left: -10px; /* Adjust the value as needed */
+}
+.coll {
+
+margin: 20px;
+padding: 20px;
+
+}
+
+.coll p {
+margin-bottom: 15px;
+line-height: 1.5;
+}
+.qc{
+float: right;
+margin-top: -480px;
+
+}
+.ss p {
+margin-bottom: 20px; /* Adjust this value to control the space between paragraphs */
+}
+
+.colyy .ss h3 {
+font-size: 25px; /* Adjust this value to change the font size */
+}
+
+.colyy .ss p {
+font-size: 25px; /* Adjust this value to change the font size */
+margin-bottom: 20px; /* Adjust this value to control the space between paragraphs */
+}
+
+.colyy .ss b {
+font-size: 24px; /* Adjust this value to change the font size */
+}
+.colyy .ss p {
+font-size: 18px; /* Adjust this value to change the font size */
+margin-bottom: 20px; /* Adjust this value to control the space between paragraphs */
+border-bottom: 4px solid  #ff3f5c; /* Add a thick red line below paragraphs */
+padding-bottom: 10px; /* Adjust this value to control the spacing between the text and the line */
+}
+
+.ssr .sour {
+position: relative; /* Add position relative for the parent element */
+font-size: 38px; 
+}
+
+.ssr .sour::after {
+content: ''; /* Create a pseudo-element for the line */
+position: absolute;
+bottom: -7px; /* Adjust this value to control the distance of the line from the text */
+left: 0;
+width: 100%;
+height: 1px; /* Adjust this value to control the thickness of the line */
+/* background-color: black; */
+font-size: 24px;
+border-bottom: 1px solid #000;
+}
+
+
+div.gallery {
+margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 180px;
+}
+
+div.gallery:hover {
+border: 1px solid #777;
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+}
+
+div.gallery {
+border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+border: 1px solid #777;
+}
+
+div.gallery img {
+width: 100%;
+height: auto;
+}
+
+div.desc {
+padding: 15px;
+text-align: center;
+}
+
+* {
+box-sizing: border-box;
+}
+
+.responsive {
+padding: 0 6px;
+float: left;
+width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+.responsive {
+  width: 49.99999%;
+  margin: 6px 0;
+}
+}
+
+@media only screen and (max-width: 500px) {
+.responsive {
+  width: 100%;
+}
+}
+
+.clearfix:after {
+content: "";
+display: table;
+clear: both;
+}
+.about {
+font-size: 24px; /* You can adjust the font size as needed */
+margin-left: -50px; /* Adjust the margin to shift the text to the right */
+color:rgb(10, 10, 88);     /* Original text color */
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a blurred shadow effect */
+}
+
+.col {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 20px; /* Adjust the margin value as needed */
+
+}
+
+.img2 {
+max-width: 100%;
+height: auto;
+padding-bottom: 180px;
+}
+.img21{
+
+padding-bottom: 15px;
+filter: drop-shadow(8px 8px 10px rgb(69, 69, 69));
+}
+
+
+/* vision head prop */
+.vision_head ,.row1{
+margin-left: 5rem;
+margin-top: 3rem;
+}
+
+.col{
+ height: fit-content;
+ width: fit-content;
+ padding-top: 4rem;
+}
+.about_taital11 {
+font-size: 43px; /* Adjust the font size as needed */
+/* Add any other styles you want */
+border-bottom: 1px solid #000;
+}
+.about_taital{
+border-bottom: 1px solid #000;
+padding-bottom: 10px;
+}
+h6 {
+margin-bottom: 30px; /* Adjust the margin value as needed */
+}
+.shifted {
+margin-top: 30px; /* Adjust this value as needed */
+}
+.vision_head {
+margin-bottom: 30px; /* Adjust this value as needed */
+}
+.about_taital11{
+margin-bottom: 20px;
+}
+.about_taital11 {
+margin-bottom: 20px; /* Adjust this value as needed */
+}
+.img21 {
+width: 300px; /* Adjust this value to increase or decrease the width */
+height: auto; /* Maintain the aspect ratio */
+margin-top: -50px; 
+}
+.col p {
+font-size: 30px; /* Adjust this value to increase or decrease the font size */
+text-align: justify;
+}
+.about_ {
+font-size: 45px; /* Adjust this value to increase or decrease the font size */
+margin-left: 80px; /* Adjust this value to shift the text right */
+
+margin-bottom: -229px;
+}
+.mission_head {
+margin-top: 60px;
+}
+.img22 {
+box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.8); /* Adjust the values as needed */
+}
+.qc{
+margin-left: 10px;
+}
+.coly {
+  width: 50%; /* Adjust this value as needed */
+}
+.colyy {
+font-size: 20px; /* Adjust this value as needed */
+}
+
+.colyy p {
+margin-bottom: 20px; /* Adjust this value to create space between paragraphs */
+}
+.colo {
+margin-left:- 40px; /* Adjust this value as needed */
+}
+
+.row1{
+margin-top: 0;
+gap: 92px;
+}
+
+.qc_head{
+
+position: absolute;
+right: 633px;
+}
+.rdcimg{
+          margin-right: -103px;
+}
+.coly{
+display:flex;
+
+}
+.republic_head {
+position: absolute;
+top: 5650px;
+    left: 322px;
+    font-size: 35px;
+}
+/* .cf_cls{
+font-size: 45px;
+} */
+
+.skool_head{
+margin-bottom: 2px;
+
+}
+.ss_cls{
+margin-top: 1000px;
+position: absolute;
+top: 5298px;
+font-size: 35px;
+margin-left:-446px
+}
+.flex_para{
+display: flex;
+flex-direction: column;
+margin: 2px 2px;
+}
+
+.ss{
+margin-bottom: -40px;
+}
+
+.icons{
+display: flex;
+gap: 6px;
+}
+
+.btn {
+display: inline-block;
+padding: 10px 20px;
+user-select: none;
+color: #013151 ;
+text-decoration: none;
+border-radius: 40px;
+transition: background-color 0.3s ease;
+
+}
+
+.btn :hover {
+color: white;
+}
+.centered-text {
+text-align: center;
+}
+
+nav {
+-webkit-box-flex: auto;
+-webkit-flex: auto;
+-ms-flex: auto;
+flex: auto;
+position: relative;
+padding: .6125rem .6152rem 1.6125rem;
+} 
+
+li a { 
+text-decoration: none;
+color: RGBA(67, 83, 99, 1);
+
+}
+
+ul:hover a {
+opacity: .8;
+
+-webkit-transform: scale(0.97);
+transform: scale(0.97);
+}
+
+ul a {
+display: block;
+position: relative;
+padding: .75rem 1rem 1rem;
+
+-webkit-transition: -webkit-transform .22s,box-shadow .22s;
+transition: transform .22s,box-shadow .22s;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+/* user-drag: none; */
+box-shadow: 0 0 0 -.25rem rgba(0,0,0,.1);
+
+}
+ul a:focus, ul a:hover {
+outline: 0;
+box-shadow: 0 .5rem 0 -.25rem rgba(0,0,0,.1);
+opacity: 1;
+-webkit-transform: scale(1.03);
+transform:scale(1.03);
+-webkit-transition: -webkit-transform .088s,box-shadow .088s;
+transition: transform .088s,box-shadow .088s;
+z-index: 1;
+}
+.centered-text {
+text-align: center; /* Center the text horizontally */
+margin-right: -250px; /* Adjust the right margin as needed */
+}
+.centered1-text {
+margin: 0;
+margin-left: -10px; /* Adjust this value as needed */
+}
+.centeredd{
+margin-left:-2px;
+}
+.qc h3 {
+/* display: inline-block; */
+display: inline;
+border-bottom: 3px solid red;
+padding-bottom: 2px; /* Adjust as needed */
+margin-bottom: 500px; /* Adjust as needed */
+font-size: 45px;
+margin-right: -24px;
+margin-top: 350px;
+}
+.republic_head{
+/* display: inline-block; */
+
+border-bottom: 3px solid red;
+padding-bottom: 2px; /* Adjust as needed */
+margin-bottom: 10px; /* Adjust as needed */
+
+}
+.ss_cls{
+display: inline;
+border-bottom: 3px solid red;
+padding-bottom: 2px; /* Adjust as needed */
+margin-bottom: 10px; /* Adjust as needed */
+
+}
+
+.name {
+margin-top: 10px; /* Adjust this value as needed */
+}
+
+.about {
+font-weight: normal;
+font-style: normal;
+text-decoration: none;
+color: inherit;
+margin: 0; /* Remove default margins from h1 element */
+}
+.image_kosh {
+width: 480px; /* Adjust the width to your desired size */
+height: 480px; /* This will make the container square */
+overflow: hidden; /* Hide any content that goes beyond the container */
+float: left;
+
+margin-right: 30px; /* Add some space between image and text */
+  margin-left: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+
+.image_kosh img {
+width: 100%; /* Make the image fill the container */
+height:100% ; /* Maintain the image's aspect ratio */
+object-fit: cover; /* Crop the image if needed to fit the container */
+border-radius: 00px;
+
+}
+.about_text1{
+overflow: hidden; /* Clear floats */
+margin-left: 65px;
+margin-top: 60px;
+font-size: 26px;
+text-align: justify;
+width: calc(100% - 320px);
+margin-left: 170px;
+}
+.about_ko {
+font-size: 40px; /* Increase font size */
+margin-left: 500px; /* Shift the heading a little to the right */
+display: inline;
+border-bottom: 3px solid red;
+padding-bottom: 2px; /* Adjust as needed */
+margin-bottom: 10px; /* Adjust as needed */
+
+}
+.image_2a img {
+  width: 450px; /* Adjust the width to your desired size */
+  height: 450px; /* This will make the container square */
+  overflow: hidden; /* Hide any content that goes beyond the container */
+  float: left;
+  margin-right: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+.about_qz{
+font-size: 45px; /* Increase font size */
+margin-left: 580px; /* Shift the heading a little to the right */
+display: inline;
+border-bottom: 3px solid red;
+padding-bottom: 2px; /* Adjust as needed */
+margin-bottom: 50px; /* Adjust as needed */
+}
+.about_te{
+overflow: hidden; /* Clear floats */
+margin-left: 65px;
+margin-top: 100px;
+font-size: 26px;
+text-align: justify;
+width: calc(100% - 80px);
+margin-left: 170px;
+}
+.about_te {
+margin-left: 10px; /* Shift the paragraph a little to the left */
+margin-bottom: 3px; /* Decrease distance between paragraphs */
+margin-top: 45px;
+}
+
+.about_te2 {
+margin-left: 10px; /* Shift the second paragraph a little to the left */
+}
+.about_dls{
+font-size: 31px; /* Increase font size */
+margin-left: 420px; /* Shift the heading a little to the right */
+display: inline;
+border-bottom: 3px solid red;
+padding-bottom: 2px; /* Adjust as needed */
+margin-top: 50px; /* Adjust as needed */
+}  
+.about_coc{
+font-size: 31px; /* Increase font size */
+margin-left: 420px; /* Shift the heading a little to the right */
+display: inline;
+border-bottom: 3px solid red;
+padding-bottom: 2px; 
+margin-bottom: 20px; /* Adjust as needed */
+margin-top: 30px;
+}
+.about_wp{
+font-size: 31px; /* Increase font size */
+margin-left:-30px; /* Shift the heading a little to the right */
+display: inline;
+border-bottom: 3px solid red;
+padding-bottom: 2px; 
+
+margin-top: 30px;
+margin-bottom: 10px; 
+
+}
+.home_bg img {
+max-width: 100%;
+height: auto;
+display: block;
+margin: 0 auto;
+max-height: 450px;
+margin-right: 28px;
+}
+/* .tick-icon{
+  margin-left: 1px;
+} */
+.icon-container{
+  display: flex;
+  gap: 4px;
+}
+.image_2a {
+  margin-left:  90px; /* Adjust this value to shift the image to the right */
+  margin-top: 50px;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/*------------------footer-------------------*/
+
+footer{
+  background-color: #111111;
+  }
+.footerarya{
+width: 100%;
+padding: 60px 30px 20px;
+  }
+
+.socialicons{
+  display: flex;
+  justify-content: center;
+}
+.socialicons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color:white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialicons a i{
+  font-size: 2em;
+  color: #fe0f0f;
+  opacity: 0.9;
+}
+
+.socialicons a:hover i{
+  color:rgb(23, 20, 20) ;
+  transition: 0.5s;
+}
+.footeraryanav{
+  margin: 30px 0;
+}
+
+.footeraryanav ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin-top: -10px;
+  
+}
+
+.footeraryanav ul li a{
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.5em;
+  opacity: 0.7;
+  transition: 0.5s;
+
+}
+
+.footeraryanav ul li a:hover{
+  opacity: 1;
+}
+.fbottom{
+  background-color: #000;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  bottom: 800;
+  left: 0;
+  right: 0;
+  position: absolute;
+  /* margin-top: 1px; */
+
+  
+  
+}
+
+.fbottom p{
+  color: white;
+}
+.designer{
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+
+
+}
+#red{
+  color: #fe0f0f;
+}
+#redd{
+  color: #1d7bba;
+}
+#pink{
+  color:rgb(241, 0, 136);
+}
+#line{
+  color: #02243b;
+}
+
+.photo_dls img{
+  width: 520px; /* Adjust this value as needed */
+  height: 300; /* This will maintain the aspect ratio of the image */
+  
+  max-height: 390px;
+  margin-left: 300px;
+  height: 500px;
+
+  border-radius: 10%;
+  box-shadow: none !important;
+}
+
+.image_12 img{
+  width: 400px;
+  height: 400px;
+  margin-left: 185px;
+  border-radius: 0%;
+  box-shadow: none;
+}
+
+.photo_coc img {
+  width: 465px; /* Adjust this value as needed */
+  height: auto; /* This will maintain the aspect ratio of the image */
+  
+  max-height: 480px;
+  margin-left: 460px;
+  height: 380px;
+  /* filter: drop-shadow(8px 8px 10px rgb(114, 112, 112)); */
+  border-radius: 10%;
+  margin-top: -54px;
+  }
+  
+  .about_text {
+    font-size: 25px;
+    text-align:justify; /* Adjust this value as needed */
+    margin-bottom: 25px;
+    
+    }
+    .name_rscoe {
+      height: 200px;
+      background-image: url('');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-top: -40px;
+      padding-top: 10px;
+      margin-top: 10px; 
+      }
+
+      .about_rscoe {
+        margin-top: 70px; /* Adjust this value as needed */
+        margin-left: 70px; 
+        font-size: 45px;
+        margin-bottom: 20px; 
+        position: relative;
+        border-bottom: 1px solid #000;
+padding-bottom: 10px;
+        }
+
+        .about_tedls{
+          overflow: hidden; /* Clear floats */
+          margin-left: 65px;
+          margin-top: 100px;
+          font-size: 26px;
+          text-align: justify;
+          width: calc(100% - -180px);
+          margin-left: 170px;
+          margin-left: 10px; /* Shift the paragraph a little to the left */
+margin-bottom: 3px; /* Decrease distance between paragraphs */
+margin-top: 45px;
+          }
+
+          .about_wpp{
+            font-size: 25px;
+            text-align:justify; /* Adjust this value as needed */
+            margin-bottom: 15px;
+            
+            }
+            .about_wph{
+              font-size: 40px; /* Increase font size */
+              margin-left: 530px; /* Shift the heading a little to the right */
+              display: inline;
+              border-bottom: 3px solid red;
+              padding-bottom: 2px; /* Adjust as needed */
+              margin-top: 500px; /* Adjust as needed */
+              padding-top: 50px;
+              }  
+              .colyyy p {
+                margin-bottom: -30px; /* Adjust the value as needed */
+                font-weight: bold;
+                font-size: 28px;
+                }

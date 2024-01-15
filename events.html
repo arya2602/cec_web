@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEC - Contact Us</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+
+        .login-container {
+            max-width: 400px;
+            margin: 100px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #4CAF50;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        /* button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        } */
+
+        .signup-link {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .signup-link a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* ------------ */
+        .btn-fulll{
+display: inline-block;
+padding: 10px 20px;
+
+/* border: 2px solid #000;  */
+border-radius: 40px; /* Adjust the value to control the curvature of the border */
+margin-right: 90px; 
+
+}
+
+.btn-fulll {
+text-decoration: none;
+color:#f3faf4; /* Text color */
+font-weight: bold;
+margin-left: 147px;
+background-color: #4CAF50;
+}
+
+.btn-fulll:hover {
+    background-color: #45a049; /* Background color when hovering */
+}
+
+
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Contact Us</h2>
+        <form action="connect.php" method="post">
+            <label for="username">Full Name :</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Email ID :</label>
+            <input type="email" id="password" name="password" required>
+
+            <label for="msg">Send Message</label>
+            <input type="text" id="msg" name="msg" >
+
+            <!-- <button type="submit">Submit</button> -->
+            <button type="submit"  class="btn btn-fulll centeredd-text" data-aos="zoom-in"><b>Submit</b></button>
+        </form>
+
+        <!-- <div class="signup-link">
+            Don't have an account? <a href="signup.html">Sign up here</a>.
+        </div> -->
+    </div>
+
+</body>
+</html>
